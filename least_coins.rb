@@ -35,7 +35,7 @@ end
   if pennies == 0.1
     coin_types[:pennies] = 0.1
   elsif pennies != 0.1
-    coin_types[:pennies] = pennies
+    coin_types[:pennies] = pennies*0.1
   end
 
   puts coin_types
