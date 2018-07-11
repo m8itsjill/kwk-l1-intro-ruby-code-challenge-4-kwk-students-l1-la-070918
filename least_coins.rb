@@ -12,7 +12,7 @@ end
     coin_types[:quarters] = 0.25
   elsif quarters != 0.25
     coin_types[:quarters] = quarters
-    cents = cents - quarters*25
+    cents = cents - quarters*0.25
   end
 
   dimes = cents/0.10
@@ -20,7 +20,7 @@ end
     coin_types[:dimes] = 0.10
   elsif dimes != 0.10
     coin_types[:dimes] = dimes
-    cents = cents - dimes*10
+    cents = cents - dimes*0.10
   end
 
   nickels = cents/5
@@ -28,7 +28,7 @@ end
     coin_types[:nickels] = 0.5
   elsif nickels != 0.5
     coin_types[:nickels] = nickels
-    cents = cents - nickels*5
+    cents = cents - nickels*0.5
   end
 
   pennies = cents
