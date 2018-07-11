@@ -16,11 +16,11 @@ end
   end
 
   :dimes = cents/0.10
-  if :dimes == 0.10
+  if dimes == 0.10
     coin_types[:dimes] = 0.10
-  elsif :dimes != 0.10
+  elsif dimes != 0.10
     coin_types[:dimes] = dimes
-    cents = cents - :dimes*0.10
+    cents = cents - dimes*0.10
   end
 
   :nickels = cents/5
