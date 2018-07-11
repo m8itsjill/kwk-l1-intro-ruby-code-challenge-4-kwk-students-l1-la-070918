@@ -5,6 +5,14 @@ def least_coins(cents)
     :nickels" => 0.5, 
     :pennies" => 0.1
     } 
+end
 
+quarters = 29/25
+if 
+elsif
+end
 
+dimes = 29/10
+if 
+elsif
 end
