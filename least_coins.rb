@@ -7,15 +7,15 @@ def least_coins(cents)
     } 
 end
 
-  quarters = cents/25
-  if quarters == 0.25
+  :quarters = cents/25
+  if :quarters == 0.25
     coin_types[:quarters] = 0.25
-  elsif quarters != 0.25
-    coin_types[:quarters] = quarters
-    cents = cents - quarters*0.25
+  elsif :quarters != 0.25
+    coin_types[:quarters] = :quarters
+    cents = cents - :quarters*0.25
   end
 
-  dimes = cents/0.10
+  :dimes = cents/0.10
   if dimes == 0.10
     coin_types[:dimes] = 0.10
   elsif dimes != 0.10
